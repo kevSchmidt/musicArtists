@@ -3,7 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css links -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/extraSmallDevices.css" />
+    <link rel="stylesheet" href="../css/smallDevices.css" />
+    <!-- google font link -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
     <title>Kurt Cobain</title>
   </head>
-  <body></body>
+  <body>
+    <div class="first-cover">
+      <nav class="nav-first-cover">
+        <ul class="nav-first-cover-link">
+          <li>
+            <a href="../html/morrison.html" class="artistName">Jim Morrison</a>
+          </li>
+          <li>
+            <a href="#" class="artistName">Kurt Cobain</a>
+          </li>
+          <li>
+            <a href="../html/nicks.html" class="artistName">Stevie Nicks</a>
+          </li>
+          <li>
+            <a href="../html/bowie.html" class="artistName">David Bowie</a>
+          </li>
+        </ul>
+        <div class="hamburger-menu">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+      </nav>
+      <div class="img-first-cover-cobain"></div>
+    </div>
+    <script>
+      // Burger Animation
+      document
+        .querySelector(".hamburger-menu")
+        .addEventListener("click", () => {
+          document.querySelector(".nav-first-cover").classList.toggle("change");
+        });
+    </script>
+  </body>
 </html>
