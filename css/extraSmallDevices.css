@@ -172,7 +172,7 @@
   /* Biography */
   .biography {
     padding: 0.5rem;
-    width: 85%;
+    width: 90%;
   }
   .biography-header {
     margin: 1rem;
@@ -184,7 +184,7 @@
   /* Music */
   .music {
     margin: 1rem;
-    width: 80%;
+    width: 90%;
   }
   .music-header {
     margin: 0.5rem;
@@ -196,7 +196,7 @@
   /* Inspiration */
   .inspiration {
     padding: 0.5rem;
-    width: 85%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -206,9 +206,12 @@
     margin: 1rem;
     text-align: center;
   }
+  .inspiration-quote {
+    font-style: italic;
+  }
   .inspiration-img {
     margin: 1rem;
-    width: 80%;
+    width: 90%;
   }
   .inspiration-text {
     text-align: center;
@@ -216,7 +219,7 @@
   /* The Band */
   .theBand {
     padding: 0.5rem;
-    width: 80%;
+    width: 90%;
   }
   .theBand-header {
     margin: 1rem;
@@ -228,7 +231,7 @@
   /* Music Live */
   .musicLive {
     padding: 0.5rem;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -258,7 +261,7 @@
   }
   .gallery-img {
     margin: 1rem;
-    width: 80%;
+    width: 90%;
     box-shadow: 1px 2px 2px #000;
   }
   /* Discography */
@@ -276,7 +279,7 @@
   /* Container */
   footer {
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     background: #111;
   }
   /* Header */
